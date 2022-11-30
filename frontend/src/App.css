@@ -1,0 +1,48 @@
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  list-style-type: none;
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+
+.nav-height {
+  position:relative;
+  height: 96px;
+  background-color:navy;
+  color: white;
+}
+
+.bg {
+  width:100%;
+  background-repeat:no-repeat;
+  background-color: white;
+  background-size:cover;
+  background-attachment: fixed;
+  z-index: -1;
+  background-position: center;		
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.checklist-img {
+  height: 96px;
+}
+
+.budget {
+  background-repeat:no-repeat;
+  background-image: url("./pages/images/bank.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-item {
+  color:white;
+}
